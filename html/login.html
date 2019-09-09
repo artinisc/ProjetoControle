@@ -1,0 +1,33 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <title>Projeto Controle</title>
+</head>
+<body>
+    <header class = "menu-principal">
+        <main class="main-topo">
+            <div class = "header-back">
+                <div class = "topo">
+                        <img src = "../img/topo.jpg">  
+                </div>
+                <div class = "logo">
+                        <img src = "../img/logo.png">  
+                </div>
+            </div> 
+        </main>
+    </header>
+    <main class="main-corpo">
+            <div class="painel-login">
+                <fieldset class="borda-login">
+                    <form class="tela-login">
+                        USUARIO: <br> <input class="campo-nome" name="nome" type="text"><br><br><br>
+                        SENHA: <br><input class="campo-senha" name="senha" type="password" autocomplete="off"><br><br><br>
+                        <input class="botao-entrar" type="button" value="ENTRAR" onclick="logar(this.form)">
+                    </form>
+                </fieldset>
+            </div>
+        </main>
+        <script src="../js/logar.js"></script>
+</body>
+</html>

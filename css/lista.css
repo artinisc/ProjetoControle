@@ -1,0 +1,38 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: e8e8e8;
+}
+
+.header-back{
+    width: 100%;
+    height: 120px;
+}
+
+.main-topo{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topo{
+    width: 5%;
+    float: left;
+}
+
+.logo{
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.sair a{
+    width: 5%;
+    font-size: 24px;
+    color: aliceblue;
+    float: right;
+    margin-top: 60px;
+    margin-right: 20px;
+}
