@@ -36,3 +36,92 @@ body{
     margin-top: 60px;
     margin-right: 20px;
 }
+
+.dados{
+    color: aliceblue;
+}
+
+.borda-login{
+    height: 70%;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 18%;
+    background-color: 17325d;
+}
+
+.linha1 td input{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.linha2 td p{
+    margin-top: 30px;
+}
+
+.linha4 td p{
+    margin-top: 15px;
+}
+
+.linha6 td p{
+    margin-top: 15px;
+}
+
+.linha8 td p{
+    margin-top: 15px;
+}
+
+.linha0 td input{
+    margin-top: 20px;
+}
+
+.div-inome input{
+    width: 250px;
+}
+
+.div-sobrenome p{
+    margin-left: 30px;
+}
+
+.div-isobrenome input{
+    width: 250px;
+    margin-left: 30px;
+}
+
+.div-telefone1 p{
+    margin-left: 30px;
+}
+
+.div-itelefone1 input{
+    margin-left: 30px;
+}
+
+.div-telefone2 p{
+    margin-left: 30px;
+}
+
+.div-itelefone2 input{
+    margin-left: 30px;
+}
+
+.div-iemail input{
+    width: 250px;
+}
+
+.div-endereco p{
+    margin-left: 30px;
+}
+
+.div-iendereco input{
+    width: 450px;
+    margin-left: 30px;
+}
+
+.div-iequipamento input{
+    width: 250px;
+}
+
+.div-idescricao textarea{
+    height: 100px;
+    width: 600px;
+}
+
