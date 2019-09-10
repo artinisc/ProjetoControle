@@ -14,20 +14,29 @@
                 <div class = "logo">
                         <img src = "../img/logo.png">  
                 </div>
+                <div class="painel-login">
+                        <form class="tela-login">
+                            <table class="tabela-login">
+                                <tr class="linha0">
+                                    <td><p class="text-user">USUARIO</p></td>
+                                    <td><p class="text-senha">SENHA</p></td> 
+                                </tr>
+                                <tr class="linha1">      
+                                    <td><input class="campo-nome" name="nome" type="text"></td>
+                                    <td><input class="campo-senha" name="senha" type="password" autocomplete="off"></td>
+                                </tr>
+                                <tr class="linha2">
+                                    <td colspan="2"><input class="botao-entrar" type="button" value="ENTRAR" onclick="logar(this.form)"></td>
+                                </tr>
+                            </table>
+                        </form>
+                </div>
             </div> 
         </main>
     </header>
-    <main class="main-corpo">
-            <div class="painel-login">
-                <fieldset class="borda-login">
-                    <form class="tela-login">
-                        USUARIO: <br> <input class="campo-nome" name="nome" type="text"><br><br><br>
-                        SENHA: <br><input class="campo-senha" name="senha" type="password" autocomplete="off"><br><br><br>
-                        <input class="botao-entrar" type="button" value="ENTRAR" onclick="logar(this.form)">
-                    </form>
-                </fieldset>
-            </div>
-        </main>
+    <div class="img-fundo">
+            <img src = "../img/fundoh.png">  
+    </div>
         <script src="../js/logar.js"></script>
 </body>
 </html>
