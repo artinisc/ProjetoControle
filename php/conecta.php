@@ -1,5 +1,5 @@
 <?php
-$conexao = mysql_conection(localhost, "hoot", "");
+$conexao = mysql_connection(localhost, "hoot", "");
 $db = mysql_selec_db("projetocontrole", $conexao);
 
 if(!$conexao){
@@ -10,4 +10,3 @@ mysql_query("SET NAMES 'utf8'");
 mysql_query('SET character_set_connection=utf8');
 mysql_query('SET character_set_client=utf8');
 mysql_query('SET character_set_result=utf8');
-?>
