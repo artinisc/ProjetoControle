@@ -13,8 +13,8 @@
                 </div>
                 <div class = "logo">
                         <a href="./principal.html" target="_self">
-                            <img src = "../img/logo.png">
-                        </a> 
+                        <img src = "../img/logo.png">
+                        </a>
                 </div>
                 <div class = "sair">
                         <a href="./login.html" target="_self">Sair</a>
@@ -23,7 +23,61 @@
         </main>
     </header>
     <main class="main-corpo">
-            
-        </main>
+        <div class="tela-formulario">
+            <fieldset class="borda-login">
+                <form class="tela-login" action="../php/cadastra.php" method="POST">
+                    <table class="dados">
+                        <tr class="linha1">
+                            <td class="div-id"> ID<input class="campo-id" name="id" type="text"></td>
+                        </tr>
+                        <tr class="linha2"> 
+                            <td class="div-nome"><p>NOME</p></td> 
+                            <td class="div-sobrenome"><p>SOBRENOME</p></td>
+                            <td class="div-telefone1"><p>TELEFONE PESSOAL</p></td>
+                            <td class="div-telefone2"><p>TELEFONE COM.</p></td>
+                        </tr>
+                        <tr class="linha3">  
+                            <td class="div-inome"> <input class="campo-nome" name="nome" type="text" autocomplete="off"></td>
+                            <td class="div-isobrenome"> <input class="campo-sobrenome" name="sobrenome" type="text" autocomplete="off"></td>
+                            <td class="div-itelefone1"> <input class="campo-telefone1" name="telefone1" type="text" autocomplete="off"></td>
+                            <td class="div-itelefone2"> <input class="campo-telefone2" name="telefone2" type="text" autocomplete="off"></td>
+                        </tr>
+                        <tr class="linha4">  
+                            <td class="div-email"><p>EMAIL</p></td>
+                            <td class="div-endereco"><p>ENDEREÇO</p></td>
+                            <td class="div-entrada"><p>DATA ENT.</p></td>
+                        </tr>
+                        <tr class="linha5">
+                            <td class="div-iemail"><input class="campo-email" name="email" type="text" autocomplete="off"></td>
+                            <td class="div-iendereco" colspan="2"><input class="campo-endereco" name="endereco" type="text" autocomplete="off"></td>
+                            <td class="div-ientrada"><input class="campo-entrada" name="entrada" type="text" autocomplete="off"></td>
+                            
+                        </tr>
+                        <tr class="linha6">  
+                            <td class="div-equipamento"><p>EQUIPAMENTO</p></td>
+                            <td class="div-status"><p>STATUS</p></td>
+                            <td class="div-valor"><p>VALOR</p></td>
+                            <td class="div-saida"><p>DATA SAI.</p></td>
+                        </tr>
+                        <tr class="linha7">
+                            <td class="div-iequipamento"><input class="campo-equipamento" name="equipamento" type="text" autocomplete="off"></td>
+                            <td class="div-istatus"><input class="campo-status" name="status" type="text" autocomplete="off"></td>
+                            <td class="div-ivalor"><input class="campo-valor" name="valor" type="text" autocomplete="off"></td>
+                            <td class="div-isaida"><input class="campo-saida" name="saida" type="text" autocomplete="off"></td>
+                        </tr>
+                        <tr class="linha8">  
+                            <td class="div-descricao"><p>DESCRIÇÃO DO PROBLEMA</p></td>
+                        </tr>
+                        <tr class="linha9">
+                            <td class="div-idescricao" colspan="5"><textarea class="campo-descricao" name="descricao"></textarea></td>
+                        </tr>
+                        <tr class="linha0">    
+                            <td class="div-cadastrar"><input class="botao-cadastrar" type="submit" value="CADASTRAR" onclick="logar(this.form)"></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+        </div>
+    </main>
 </body>
 </html>
