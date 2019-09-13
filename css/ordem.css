@@ -5,6 +5,13 @@ body{
     background-color: e8e8e8;
 }
 
+.painel-login {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/topo.jpg);
+    background-repeat: no-repeat;
+}
+
 .header-back{
     width: 100%;
     height: 120px;
@@ -25,7 +32,7 @@ body{
     float: left;
     width: 30%;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .sair a{
@@ -117,7 +124,7 @@ body{
 }
 
 .div-entrada p{
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .div-ientrada input{
@@ -141,7 +148,7 @@ body{
     margin-left: 30px;
 }
 
-.div-valor input{
+.div-ivalor input{
     margin-left: 30px;
 }
 
@@ -149,7 +156,7 @@ body{
     margin-left: 30px;
 }
 
-.div-saida input{
+.div-isaida input{
     margin-left: 30px;
 }
 
