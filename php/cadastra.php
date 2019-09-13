@@ -12,7 +12,7 @@ $equipamento = $_POST['equipamento'];
 $entrada = $_POST['entrada'];
 $descricao = $_POST['descricao'];
 
-$sql = "INSERT INTO ordem (nome, sobrenome, telefone1, telefone2, email, endereco, equipamento, entrada, descricao) 
+$sql = "INSERT INTO ordem (Nome, Sobrenome, Tel1, Tel2, Email, Endereco, Equipamento, Entrada, Descricao) 
         VALUES ('$nome', '$sobrenome', '$tel1', '$tel2', '$email', '$endereco', '$equipamento', '$entrada', '$descricao')";
 
 if(!$sql){

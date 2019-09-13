@@ -1,5 +1,5 @@
 <?php
-$conexao = mysql_connection(localhost, "hoot", "");
+$conexao = mysql_connection(localhost, "root", "");
 $db = mysql_selec_db("projetocontrole", $conexao);
 
 if(!$conexao){
