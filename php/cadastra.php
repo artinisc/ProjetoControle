@@ -1,6 +1,6 @@
 <?php
 
-require_once("../php/conecta.php");
+include_once("conecta.php");
 
 $nome = $_POST['nome'];
 $sobrenome = $_POST['sobrenome'];
@@ -12,11 +12,9 @@ $equipamento = $_POST['equipamento'];
 $entrada = $_POST['entrada'];
 $descricao = $_POST['descricao'];
 
-$sql = "INSERT INTO ordem (Nome, Sobrenome, Tel1, Tel2, Email, Endereco, Equipamento, Entrada, Descricao) 
-        VALUES ('$nome', '$sobrenome', '$tel1', '$tel2', '$email', '$endereco', '$equipamento', '$entrada', '$descricao')";
+$sql = "INSERT INTO ordem (Nome, Sobrenome, Tel1, Tel2, Email, Endereco, Equipamento, Entrada, Descricao) VALUES ('$nome', '$sobrenome', '$tel1', '$tel2', '$email', '$endereco', '$equipamento', '$entrada', '$descricao')";
+$salvar = mysqli_query($conecta, $sql);
 
-if(!$sql){
-    echo("Erro durante a inserção!");
-}else{
-    echo("Ordem salva com sucesso!");
-}
+mysqli_close($conecta);
+
+?>
