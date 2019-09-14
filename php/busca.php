@@ -7,8 +7,8 @@ $resultado = mysqli_query($conecta, $pega);
 
 ?>
 
-<table class="table">
-    <thead>
+<table class="table table-hover">
+  <thead class="thead-dark">
         <tr>
             <th>ID</th>
             <th>NOME</th>
