@@ -35,7 +35,7 @@
     <main class="main-corpo">
         <div class="tela-formulario">
             <fieldset class="borda-login">
-                <form class="tela-ordem">
+                <form class="tela-ordem"  method="post" action="../php/atualiza.php">
                     <table class="dados">
                         <?php
                         if(($resultado) AND ($resultado->num_rows != 0 )){
