@@ -4,3 +4,4 @@ Servidor Local: xampp
 Banco: MySQL
 Usuario Padrão: betha
 Senha Padrão: sistemas
+Codigo Comentado para melhor entendimento
