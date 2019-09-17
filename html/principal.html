@@ -26,11 +26,21 @@
     <div class="listar">
         <span id = "conteudo"></span> </span>
             <script>
+                var paginas = 10;
+                var pagina = 1;
                 $(document).ready(function(){
-                    $.post('../php/busca.php', function(retorna){
+                    listaPagina(pagina, paginas);
+                });
+
+                function listaPagina(pagina, paginas){
+                    var dados = {
+                        pagina : pagina,
+                        paginas : paginas
+                    }
+                    $.post('../php/busca.php', dados, function(retorna){
                             $("#conteudo").html(retorna);
                     });
-                });
+                }
             </script>
     </div>
 </body>
