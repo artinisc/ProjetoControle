@@ -1,5 +1,6 @@
 <?php
 
+//cria conexão com o banco de dados
 $hostname = "localhost";
 $user = "root";
 $password = "";

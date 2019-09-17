@@ -1,9 +1,11 @@
 <?php
 
+    //pega referencia da ordem selecionada para buscar demais informações
     $idBase = $_GET['idref'];   
 
     include_once("conecta.php");
 
+    //Busca informações da ordem de acordo com o parametro especificado
     $pega = "SELECT * FROM ordem WHERE ID = '$idBase' ";
     $resultado = mysqli_query($conecta, $pega);
     
@@ -38,6 +40,7 @@
                 <form class="tela-ordem"  method="post" action="../php/atualiza.php">
                     <table class="dados">
                         <?php
+                        //Verifica resultados encontrados e exibe uma visualização completa da ordem para que seja alterada
                         if(($resultado) AND ($resultado->num_rows != 0 )){
                             while($linhas = mysqli_fetch_assoc($resultado)){
                         ?>

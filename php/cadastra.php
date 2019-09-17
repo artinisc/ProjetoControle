@@ -2,6 +2,7 @@
 
 include_once("conecta.php");
 
+//Obtem dados do arquivo cadostro e cria um novo registro no banco
 $nome = $_POST['nome'];
 $sobrenome = $_POST['sobrenome'];
 $tel1 = $_POST['telefone1'];
@@ -17,6 +18,7 @@ $salvar = mysqli_query($conecta, $sql);
 
 mysqli_close($conecta);
 
+//Redireciona para pagina principal apos incerção
 header("Location: ../html/principal.html");
 
 ?>
